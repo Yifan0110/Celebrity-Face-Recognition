@@ -22,6 +22,8 @@ To improve the model's robustness and reduce overfitting, the following augmenta
 - **Train Dataset**: 80% of the total images.  
 - **Validation Dataset**: 20% of the total images.
 
+---
+
 ## Model Overview  
 
 ### **1. Initial Implementation**
@@ -35,8 +37,6 @@ To improve upon challenges observed in a ResNet50-based model, the DenseNet121 a
 - **Train Accuracy**: 95.58%  
 - **Validation Accuracy**: 94.41%  
 - **F1-Score**: 0.7204  
-
----
 
 ## Fine-Tuning and Optimization  
 
@@ -65,4 +65,7 @@ To further enhance performance, the following techniques were applied:
 
 These improvements resulted in exceptional generalization and balanced precision and recall, making the fine-tuned DenseNet121 model a robust choice for celebrity recognition tasks.
 
+---
 
+### Appendix
+The dataset used for this project can be found on Kaggle: https://www.kaggle.com/datasets/vishesh1412/celebrity-face-image-dataset
