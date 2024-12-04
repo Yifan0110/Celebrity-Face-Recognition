@@ -77,7 +77,7 @@ A **Streamlit app** was built to provide an interactive interface for users to u
 - **Face Detection**: Uses MTCNN to detect and preprocess the face before classification.
 
 ![UI](https://i.ibb.co/nkhSxxk/1401733330668-pic.png)
-
+![UI2](https://i.ibb.co/JFzMLh7/1421733330853-pic.png)
 ---
 
 ### Appendix
