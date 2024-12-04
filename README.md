@@ -67,5 +67,18 @@ These improvements resulted in exceptional generalization and balanced precision
 
 ---
 
+## Streamlit Application  
+
+A **Streamlit app** was built to provide an interactive interface for users to upload images and perform celebrity recognition.  
+
+### **Features**
+- **User Upload**: Upload an image directly through the app interface.  
+- **Real-Time Prediction**: The model processes the uploaded image and predicts the celebrity.  
+- **Face Detection**: Uses MTCNN to detect and preprocess the face before classification.
+
+(https://i.ibb.co/nkhSxxk/1401733330668-pic.png)
+
+---
+
 ### Appendix
 The dataset used for this project can be found on Kaggle: https://www.kaggle.com/datasets/vishesh1412/celebrity-face-image-dataset
