@@ -1,6 +1,27 @@
 # Celebrity-Face-Recognition
 This repository implements a celebrity face classification system using transfer learning with the DenseNet121 architecture. The model is fine-tuned to achieve high accuracy and generalization while addressing overfitting challenges, making it robust for multi-class classification tasks.
 
+## Data Processing  
+
+### **1. Face Extraction**  
+- Used **MTCNN (Multi-Task Cascaded Convolutional Neural Networks)** to detect and extract faces from images.  
+
+### **2. Data Augmentation**  
+To improve the model's robustness and reduce overfitting, the following augmentation techniques were applied:  
+- **Rotation**  
+- **Shifting**  
+- **Shear**  
+- **Zoom**  
+- **Flip**  
+- **Fill Mode**  
+
+### **3. Balancing Classes**  
+- Ensured that each class had an equal number of images (400 images per class) to prevent class imbalance issues.  
+
+### **4. Dataset Split**  
+- **Train Dataset**: 80% of the total images.  
+- **Validation Dataset**: 20% of the total images.
+
 ## Model Overview  
 
 ### **1. Initial Implementation**
@@ -44,8 +65,4 @@ To further enhance performance, the following techniques were applied:
 
 These improvements resulted in exceptional generalization and balanced precision and recall, making the fine-tuned DenseNet121 model a robust choice for celebrity recognition tasks.
 
----
 
-## Usage  
-
-### **1. Installation**  
