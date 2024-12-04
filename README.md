@@ -76,7 +76,7 @@ A **Streamlit app** was built to provide an interactive interface for users to u
 - **Real-Time Prediction**: The model processes the uploaded image and predicts the celebrity.  
 - **Face Detection**: Uses MTCNN to detect and preprocess the face before classification.
 
-!(https://i.ibb.co/nkhSxxk/1401733330668-pic.png)
+![UI](https://i.ibb.co/nkhSxxk/1401733330668-pic.png)
 
 ---
 
